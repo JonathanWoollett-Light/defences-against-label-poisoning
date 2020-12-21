@@ -1,2 +1,7 @@
-# defences-against-label-poisoning
-Illustration of 2 basic defences against gathering inaccurately labelled data
+# Defences against label poisoning
+An illustration of 2 basic defences against gathering inaccurately labelled data.
+
+1. For many problems, we must gather data
+2. Gathered data may be inaccurate, possibly maliciously so
+3. Thus we should implement techniques to defend against inaccurare training data damaging our models.
+4. Here I present 2 basic but surprisingly effective techniques.
