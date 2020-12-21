@@ -19,7 +19,17 @@ For each dataset we are testing:
 
 We want to minimise both these values.
 
-## Checking by difference
+## Defences
+```
+this is some pseudo-code
+```
+```
+Float D = max difference 
+Float d = current difference
+Uint S = samples
+Uint s = current sample
+```
+### Checking by difference
 ```
 [Float] p = example prediction
 [Float] a_right = correct class average outputs
@@ -45,7 +55,7 @@ For s in range(S):
 <img height="200" src="https://github.com/JonathanWoollett-Light/defences-against-label-poisoning/blob/main/results/checking-by-difference/inaccurate-examples-accepted.png">
 <img height="200" src="https://github.com/JonathanWoollett-Light/defences-against-label-poisoning/blob/main/results/checking-by-difference/crossing-points.png">
 
-## Checking by committee
+### Checking by committee
 ```
 Uint C = max committee size
 Uint c = current committee size
