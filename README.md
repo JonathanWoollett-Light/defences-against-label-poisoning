@@ -1,4 +1,4 @@
-# Defences against label poisoning
+# Defences against label poisoning 🛡️
 
 So I did this as a part of a university courework, [here is my report that went with the coursework](https://docs.google.com/document/d/1xGeCsTluex3-LeXJUQFmcZaMPhFfNahzu_bGJQOA2bs/edit?usp=sharing) if you care to read my frankly subpar writing.
 
