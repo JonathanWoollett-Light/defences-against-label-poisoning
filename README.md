@@ -12,6 +12,12 @@ An illustration of 2 basic defences against gathering inaccurately labelled data
 
 They may not be visible in the `.ipynb` so I've stuck them here aswell.
 
+For each dataset we are testing: 
+1. Given all examples with accurate labels how many does the check incorrectly dicsraded?
+2. Given all examples with inaccurate labels how many does the check incorrectly accept?
+
+We want to minimise both these values.
+
 ### Checking by difference
 
 <img height="200" src="https://github.com/JonathanWoollett-Light/defences-against-label-poisoning/blob/main/results/checking-by-difference/accurate-examples-discarded.png">
