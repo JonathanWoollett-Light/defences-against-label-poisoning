@@ -1,6 +1,6 @@
 # Defences against label poisoning 🛡️☣️
 
-So I did this as a part of a university courework, [here is my report that went with the coursework](https://docs.google.com/document/d/1xGeCsTluex3-LeXJUQFmcZaMPhFfNahzu_bGJQOA2bs/edit?usp=sharing) if you care to read my frankly subpar writing.
+So I did this as a part of a university courework, [here is my report that went with the coursework](https://docs.google.com/document/d/1xGeCsTluex3-LeXJUQFmcZaMPhFfNahzu_bGJQOA2bs/edit?usp=sharing) if you care to read my frankly subpar writing (although it explains everything a bit more explicitly).
 
 An illustration of 2 basic defences against gathering inaccurately labelled data.
 
@@ -20,7 +20,12 @@ For each dataset we are testing:
 We want to minimise both these values.
 
 ## Checking by difference
-
+```
+[Float] p = example prediction
+[Float] a_right = correct class average outputs
+[Float] a_wrong = incorrect class average outputs
+d_curve(0) = 0, d_curve(s) = d, d_curve(S) = 1
+```
 ```
 For each dataset:
     Predict all examples
@@ -41,7 +46,14 @@ For s in range(S):
 <img height="200" src="https://github.com/JonathanWoollett-Light/defences-against-label-poisoning/blob/main/results/checking-by-difference/crossing-points.png">
 
 ## Checking by committee
-
+```
+Uint C = max committee size
+Uint c = current committee size
+Uint v = required votes
+Uint d = predicted class label
+Uint a_right = correct class label
+Uint a_wrong = incorrect class label
+```
 ```
 For c in range(C): For each dataset: For _ in range(c):
     Fit c networks to training data
