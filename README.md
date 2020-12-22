@@ -11,7 +11,7 @@ An illustration of 2 basic defences against gathering inaccurately labelled data
 3. Thus we should implement techniques to defend against inaccurate training data damaging our models.
 4. Here I present 2 basic but surprisingly effective techniques for checking whether labels are accurate.
 
-They may not be visible in the `.ipynb` so I've stuck them here aswell.
+
 
 For each dataset we are testing: 
 1. Given all examples with accurate labels how many does the check incorrectly dicsraded?
@@ -20,6 +20,9 @@ For each dataset we are testing:
 We want to minimise both these values.
 
 ## Defences
+
+The graphs may not be visible in the `.ipynb` so I've stuck them here aswell.
+
 ```
 this is some pseudo-code
 ```
