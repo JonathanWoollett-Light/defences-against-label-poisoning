@@ -14,7 +14,7 @@ An illustration of 2 basic defences against gathering inaccurately labelled data
 
 
 For each dataset we are testing: 
-1. Given all examples with accurate labels how many does the check incorrectly dicsraded?
+1. Given all examples with accurate labels how many does the check incorrectly discard?
 2. Given all examples with inaccurate labels how many does the check incorrectly accept?
 
 We want to minimise both these values.
